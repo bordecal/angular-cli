@@ -1,16 +1,16 @@
 Rule                                        | Time (ms) | Relative
 :-------------------------------------------|----------:|--------:
-import/no-unused-modules                    | 16192.504 |    34.3%
-@typescript-eslint/no-misused-promises      | 12934.596 |    27.4%
-@typescript-eslint/no-floating-promises     |  6937.194 |    14.7%
-import/order                                |  2205.970 |     4.7%
-import/no-extraneous-dependencies           |  2010.543 |     4.3%
-import/no-duplicates                        |  1928.831 |     4.1%
-import/extensions                           |  1304.148 |     2.8%
-@typescript-eslint/no-unnecessary-qualifier |   975.010 |     2.1%
-padding-line-between-statements             |   502.669 |     1.1%
-max-len                                     |   199.775 |     0.4%
+import/no-unused-modules                    | 18393.789 |    37.8%
+@typescript-eslint/no-misused-promises      | 10975.028 |    22.5%
+@typescript-eslint/no-floating-promises     |  5962.898 |    12.2%
+import/order                                |  3137.135 |     6.4%
+import/no-duplicates                        |  3070.013 |     6.3%
+import/no-extraneous-dependencies           |  2968.616 |     6.1%
+import/extensions                           |   905.968 |     1.9%
+@typescript-eslint/no-unnecessary-qualifier |   849.399 |     1.7%
+padding-line-between-statements             |   409.364 |     0.8%
+max-len                                     |   174.747 |     0.4%
 
-real    1m21.717s
-user    0m0.168s
-sys     0m0.399s
+real    1m14.048s
+user    0m0.197s
+sys     0m0.293s

@@ -17,6 +17,11 @@
     "sourceType": "module"
   },
   "plugins": ["eslint-plugin-import", "header", "@typescript-eslint"],
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  },
   "rules": {
     "@typescript-eslint/consistent-type-assertions": "error",
     "@typescript-eslint/no-explicit-any": "error",
