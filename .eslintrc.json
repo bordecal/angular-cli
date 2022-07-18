@@ -38,12 +38,26 @@
       ],
       2
     ],
+    "import/extensions": [
+      "error",
+      "never",
+      {
+        "json": "always"
+      }
+    ],
     "import/first": "error",
     "import/newline-after-import": "error",
     "import/no-absolute-path": "error",
     "import/no-duplicates": "error",
     "import/no-extraneous-dependencies": ["off", { "devDependencies": false }],
     "import/no-unassigned-import": ["error", { "allow": ["symbol-observable"] }],
+    "import/no-unused-modules": [
+      "error",
+      {
+        "missingExports": true,
+        "unusedExports": true
+      }
+    ],
     "import/order": [
       "error",
       {
