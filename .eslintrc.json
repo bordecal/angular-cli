@@ -19,6 +19,7 @@
   "plugins": ["eslint-plugin-import", "header", "@typescript-eslint"],
   "settings": {
     "import/resolver": {
+      "node": {},
       "typescript": {}
     }
   },
